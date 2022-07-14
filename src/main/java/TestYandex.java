@@ -1,15 +1,13 @@
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
-import java.util.ArrayList;
 import java.util.List;
 
 public class TestYandex {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
 
         int dur = 2;
         WebDriver driver = new ChromeDriver();
@@ -92,6 +90,5 @@ public class TestYandex {
             //закрытие сессии
             driver.quit();
         }
-
     }
 }
